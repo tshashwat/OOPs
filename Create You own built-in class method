@@ -1,0 +1,12 @@
+class Powerof:
+    
+    def __init__(self,x,n):
+        self.x=x
+        self.n=n
+        self.power=x**n
+    
+X=int(input("input value for x : "))
+N=int(input("input value for n : "))
+
+a=Powerof(X,N).power
+print(a)
